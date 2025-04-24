@@ -1,4 +1,4 @@
-# Expense Tracker with Graph 📊  
+# Expense Tracker with Graph 📊  Repo under work and still not completed i would advise not take my approach until I finalize my work with prod version.
 An interactive expense tracker application that allows users to record, view, and analyze their expenses with a dynamic graph using Chart.js. This is a simple yet powerful project for keeping track of personal finances. While the frontend is fully functional, the backend is still under development.  
 
 ## Features ✨  
