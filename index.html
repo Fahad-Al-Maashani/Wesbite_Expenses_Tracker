@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker with Graph</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Expense Tracker</h1>
+    <form id="expense-form">
+      <input type="text" id="description" placeholder="Expense Description" required>
+      <input type="number" id="amount" placeholder="Enter Amount (e.g., 12.50)" step="0.01" required>
+      <button type="submit">Add Expense</button>
+    </form>
+    <ul id="expense-list"></ul>
+    <h2>Total: OMR <span id="total">0.00</span></h2>
+    <h2>Expense Analysis</h2>
+    <canvas id="expense-chart"></canvas>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
